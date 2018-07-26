@@ -1,0 +1,17 @@
+.logo, .search-box .list {
+    float: left;
+}
+
+.google-apps, .notifications, .profile {
+    float: right
+}
+
+.middle-right-header, .middle-left-header {
+    margin: 10px
+}
+
+.search-box {
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #fafafa
+}
