@@ -1,17 +1,132 @@
-.logo, .search-box .list {
-    float: left;
+.header, .top-header, .middle-left-header, .middle-right-header, .bottom-header {
+    background-color: #fafafa;
 }
 
-.google-apps, .notifications, .profile {
-    float: right
+.top-header {
+    height: 10px;
 }
 
-.middle-right-header, .middle-left-header {
-    margin: 10px
+.top-more-items {
+    margin: 25px;
+    color: rgb(128,128,128);
+    font-size: 14px;
+}
+
+.top-url-preview {
+    font-size: 14px;
+    color: #006621;
+}
+.top-result {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(128,128,128);
+    padding: 10px;
+    width: 75%;
+}
+
+.num-results {
+    font-size: 14px;
+    color: rgb(128,128,128);
+    margin: 10px;
+}
+
+body {
+    font-family: 'Roboto',arial,sans-serif;
+    background-color: #fafafa;
+}
+
+li {
+    margin: 2px;
+}
+
+.url-preview {
+    color: #006621;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+#search {
+    height: 34px;
+    width: 500px;
 }
 
 .search-box {
-    margin-left: 10px;
-    margin-top: 20px;
-    background-color: #fafafa
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.middle-left-header {
+    float: left;
+    width: 70%;
+}
+
+.middle-right-header {
+    float: right;
+    right: 10px;
+}
+
+.logo, .search-box {
+    float: left
+}
+
+.google-apps, .notifications, .profile {
+    float: right;
+    padding: 10px;
+}
+
+.list {
+    float: left;
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 14px;
+    color: rgb(102,102,102)
+}
+
+.bottom-header {
+    float: left;
+    width: 100%;
+    /* margin-left: 11%; */
+    margin-bottom: 1%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(102,102,102);
+}
+
+.left-list {
+    float: left;
+    /* width: 30%; */
+    margin-left: 11%;
+}
+
+.middle-list {
+    float: left;
+    margin-left: 3%;
+    /* width: 20%; */
+}
+
+.body {
+    float: left;
+    margin-left: 15%;
+    background-color: #ffffff;
+}
+
+.result {
+    margin: 5% 0%;
+    font-size: 14px;
+}
+
+.results {
+    width: 75%;
+}
+
+p {
+    margin: 0;
+}
+
+a.title {
+    font-size: 18px;
 }
